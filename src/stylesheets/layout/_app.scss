@@ -49,10 +49,126 @@
   //   color: rgba(255, 255, 255, 0);
   // }
 }
-.page {
-  width: 100vw;
-  height: 100vh;
-}
+// .page {
+//   width: 100vw;
+//   height: 100vh;
+//   color: white;
+// }
+.section__about {
+  text-align: left;
+  margin-top: 40px;
+  padding: 0px 130px 0px 130px;
+  color: white;
+  &--box {
+    width: 60%;
+    position: relative;
+    left: 600px;
+  }
+  &--title {
+    font-family: $par;
+    font-size: 60px;
+    margin: 0px;
+  }
+  &--subtitle {
+    font-family: $par;
+    font-size: 60px;
+    margin: 0px;
+  }
+  &--subtitle span {
+    color: $mainColor;
+  }
+  &--subtitle .text-underline::after {
+    position: absolute;
+    content: '';
+    width: 170px;
+    height: 20px;
+    top: 140px;
+    left: 260px;
+    background: white;
+    z-index: -1;
+    transition: transform 0.5s;
+    transform: scaleX(0);
+    transform-origin: right;
+  }
+  &--subtitle .text-underline-two::after {
+    position: absolute;
+    content: '';
+    width: 710px;
+    height: 20px;
+    top: 220px;
+    left: 0px;
+    background: white;
+    z-index: -1;
+    transition: transform 0.5s;
+    transform: scaleX(0);
+    transform-origin: right;
+  }
 
+  &--subtitle .text-underline:hover::after,
+  .text-underline-two:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+  }
+  &--text {
+    display: inline-block;
+    width: 93%;
+    text-align: justify;
+    font-family: $par;
+  }
+  &--container {
+    display: inline-block;
+    position: absolute;
+    left: 40;
+  }
+}
+.section__about img {
+  height: 500px;
+  position: relative;
+  z-index: 2;
+  top: -40px;
+  left: 80px;
+  filter: grayscale(100%);
+}
+.frame {
+  &__pink {
+    border: 8px $mainColor solid;
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  &__paper {
+    border: 4px white solid;
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+    position: relative;
+    z-index: -2;
+    top: -75px;
+    left: -380px;
+  }
+  &__white {
+    border: 4px white dotted;
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+    position: relative;
+    z-index: -3;
+    top: -55px;
+    left: -760px;
+  }
+  &__bck {
+    border: 4px white solid;
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+    position: relative;
+    z-index: -4;
+    top: -440px;
+    left: 90px;
+  }
+}
 @media all and (min-width: 768px) {
 }
