@@ -1,0 +1,65 @@
+.section__projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 0px;
+  margin-top: 200px;
+  &--container {
+    display: inline-block;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+
+    text-align: center;
+    // height: 400px;
+  }
+  &--container img {
+    height: 500px;
+    position: relative;
+    left: -110px;
+    top: -60px;
+  }
+  &--title {
+    display: inline-block;
+    font-family: $text;
+    color: black;
+    font-size: 40px;
+    background-color: white;
+    padding: 0px 10px 0px 10px;
+    margin: 0;
+    position: relative;
+    top: -130px;
+    z-index: 1;
+  }
+}
+.box--decoration {
+  background-color: $mainColor;
+  border: 10px solid white;
+  height: 400px;
+  width: 400px;
+  display: inline-block;
+}
+.box--decoration:hover {
+  transition: 0.5s;
+  border: 10px solid white;
+  box-shadow: 10px -10px 0 -3px black, 10px -10px white, 20px -20px 0 -3px black, 20px -20px white, 30px -30px 0 -3px black, 30px -30px white, 40px -40px 0 -3px black, 40px -40px white;
+}
+.second {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+}
+.second img {
+  margin-left: 60px;
+  transform: rotate(-50deg);
+}
+.third {
+  grid-column: 3 / 4;
+  grid-row: 1 / 2;
+}
+.third img {
+  height: 700px;
+  left: -300px;
+  top: -200px;
+}
+.third h4 {
+  top: -330px;
+}

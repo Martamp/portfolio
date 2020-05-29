@@ -1,6 +1,9 @@
 .app {
   text-align: center;
 }
+// .container {
+//   display: flex;
+// }
 .header {
   &__logo {
     font-family: $title;
@@ -63,6 +66,7 @@
     width: 60%;
     position: relative;
     left: 600px;
+    padding-top: 40px;
   }
   &--title {
     font-family: $par;
@@ -82,7 +86,7 @@
     content: '';
     width: 170px;
     height: 20px;
-    top: 140px;
+    top: 175px;
     left: 260px;
     background: white;
     z-index: -1;
@@ -95,7 +99,7 @@
     content: '';
     width: 710px;
     height: 20px;
-    top: 220px;
+    top: 255px;
     left: 0px;
     background: white;
     z-index: -1;
@@ -119,6 +123,7 @@
     display: inline-block;
     position: absolute;
     left: 40;
+    height: 500px;
   }
 }
 .section__about img {

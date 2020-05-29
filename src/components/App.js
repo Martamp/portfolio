@@ -2,7 +2,10 @@ import React from 'react';
 import { Link, Route, Switch } from 'react-router-dom';
 import '../stylesheets/index.scss';
 import img from '../images/profile-photo.png';
-
+import vision from '../images/vision.png';
+import group from '../images/group.png';
+import awesome from '../images/awesome.png';
+import rickymorty from '../images/rickymorty.png';
 function App() {
   return (
     <div className="app">
@@ -46,10 +49,33 @@ function App() {
             <p className="page section__about--text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
           </div>
         </section>
-        {/* <section id="page2" className="page section__projects">
-          fefef
+        <section id="page2" className="page section__projects">
+          <div className="section__projects--container">
+            <div className="box--decoration">
+              <img src={vision} title="Marta" alt="Get to know me" />
+            </div>
+            <h4 className="section__projects--title">Title</h4>
+            {/* <p className="section__projects--description">DESCRIPTION Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+            <div className="section__projects--tags">
+              <span>JS</span>
+              <span>HTML</span>
+              <span>CSS</span>
+            </div> */}
+          </div>
+          <div className="section__projects--container second">
+            <div className="box--decoration">
+              <img src={rickymorty} title="Marta" alt="Get to know me" />
+            </div>
+            <h4 className="section__projects--title">Title</h4>
+          </div>
+          <div className="section__projects--container third">
+            <div className="box--decoration">
+              <img src={awesome} title="Marta" alt="Get to know me" />
+            </div>
+            <h4 className="section__projects--title">Title</h4>
+          </div>
         </section>
-        <section id="page3" className="page section__knowledge">
+        {/* <section id="page3" className="page section__knowledge">
           feffff
         </section>
         <section id="page4" className="page section__contact">
