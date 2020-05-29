@@ -4,6 +4,8 @@ import '../stylesheets/index.scss';
 import img from '../images/profile-photo.png';
 import vision from '../images/vision.png';
 import group from '../images/group.png';
+import buscador from '../images/buscador.png';
+import js from '../images/js.png';
 import awesome from '../images/awesome.png';
 import rickymorty from '../images/rickymorty.png';
 function App() {
@@ -71,6 +73,24 @@ function App() {
           <div className="section__projects--container third">
             <div className="box--decoration">
               <img src={awesome} title="Marta" alt="Get to know me" />
+            </div>
+            <h4 className="section__projects--title">Title</h4>
+          </div>
+          <div className="section__projects--container four">
+            <div className="box--decoration">
+              <img src={js} title="Marta" alt="Get to know me" />
+            </div>
+            <h4 className="section__projects--title">Title</h4>
+          </div>
+          <div className="section__projects--container five">
+            <div className="box--decoration">
+              <img src={buscador} title="Marta" alt="Get to know me" />
+            </div>
+            <h4 className="section__projects--title">Title</h4>
+          </div>
+          <div className="section__projects--container six">
+            <div className="box--decoration">
+              <img src={group} title="Marta" alt="Get to know me" />
             </div>
             <h4 className="section__projects--title">Title</h4>
           </div>

@@ -3,14 +3,16 @@
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   grid-gap: 0px;
-  margin-top: 200px;
+  padding-top: 200px;
+  overflow-x: scroll;
+  // width: 1000px;
+  overflow: hidden;
   &--container {
     display: inline-block;
     grid-column: 1 / 2;
     grid-row: 1 / 2;
-
     text-align: center;
-    // height: 400px;
+    height: 500px;
   }
   &--container img {
     height: 500px;
@@ -29,6 +31,7 @@
     position: relative;
     top: -130px;
     z-index: 1;
+    width: 300px;
   }
 }
 .box--decoration {
@@ -62,4 +65,34 @@
 }
 .third h4 {
   top: -330px;
+}
+.four {
+  grid-column: 1 /2;
+  grid-row: 2 / 3;
+}
+.four img {
+  margin-left: 20px;
+  top: -80px;
+  left: -40px;
+  object-fit: cover;
+  width: 450px;
+}
+.five {
+  grid-column: 2 /3;
+  grid-row: 2 / 3;
+}
+.five img {
+  left: -200px;
+  top: -150px;
+  height: 600px;
+}
+.five h4 {
+  top: -230px;
+}
+.six {
+  grid-column: 3 /4;
+  grid-row: 2 / 3;
+}
+.six img {
+  transform: rotate(-20deg);
 }
