@@ -37,10 +37,12 @@ function App() {
             <div className="frame__pink">
               {' '}
               <img src={img} title="Marta" alt="Get to know me" />
+              <div className="frame__paper">
+                <div className="frame__white">
+                  <div className="frame__bck"></div>
+                </div>
+              </div>
             </div>
-            <div className="frame__paper"></div>
-            <div className="frame__white"></div>
-            <div className="frame__bck"></div>
           </div>
           <div className="section__about--box">
             <h3 className="page section__about--title">¡Hola!</h3>
