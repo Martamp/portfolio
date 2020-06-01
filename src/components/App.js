@@ -97,12 +97,87 @@ function App() {
             <h4 className="section__projects--title">Title</h4>
           </div>
         </section>
-        {/* <section id="page3" className="page section__knowledge">
-          feffff
+        <section id="page3" className="section__knowledge">
+          <div className="section__knowledge--text">
+            <h3 className="developer ">desarrollo</h3>
+            <span className="space"> ○ </span>
+            <h4 className="fill">HTML</h4>
+            <span className="space"> ○ </span>
+            <h4 className="fill">CSS</h4>
+            <span className="space"> ○ </span>
+            <h4 className="fill">SASS</h4>
+            <span className="space"> ○ </span>
+            <h4 className="fill">Javascript</h4>
+            <span className="space"> ○ </span>
+            <h4 className="fill">React</h4>
+            <span className="space"> ○ </span>
+            <h4 className="fill">Git</h4>
+            <span className="space"> ○ </span>
+            <h4 className="fill">Gulp</h4>
+            <span className="space"> ○ </span>
+            <h4 className="fill">Scrum</h4>
+            <span className="space"> ○ </span>
+            <h3 className="designer">diseño</h3>
+            <span className="space"> ○ </span>
+            <h4 className="fill">Photoshop</h4>
+            <span className="space"> ○ </span>
+            <h4 className="fill">Illustrator</h4>
+            <span className="space"> ○ </span>
+            <h4 className="fill">InDesign</h4>
+            <span className="space"> ○ </span>
+            <h4 className="fill">Adobe XD</h4>
+            <span className="space"> ○ </span>
+            <h4 className="fill">Invision</h4>
+            <span className="space"> ○ </span>
+            <h4 className="fill">Flash</h4>
+            <span className="space"> ○ </span>
+            <h4 className="fill">3DsMax</h4>
+            <span className="space"> ○ </span>
+            <h4 className="fill">Unity</h4>
+            <span className="space"> ○ </span>
+            <h4 className="fill">Rhinoceros</h4>
+            <span className="space"> ○ </span>
+            <h4 className="fill">Autocad</h4>
+            {/* <span className="space"> ○ </span> */}
+            {/* <span className="space"> // </span> */}
+            {/* <h4 className="fill">Sony Vegas Pro</h4>
+            <span className="space"> // </span> */}
+          </div>
         </section>
-        <section id="page4" className="page section__contact">
-          wwww
-        </section> */}
+        <section id="page4" className=" section__contact">
+          {/* <ul class="social">
+            <li>
+              <a class="ease-all" href="#">
+                <i class="fab fa-github-alt"></i>
+              </a>
+            </li>
+            <li>
+              <a class="ease-all" href="#">
+                <i class="fab fa-linkedin-in icon"></i>
+              </a>
+            </li>
+            <li>
+              <a class="ease-all" href="#">
+                <i class="fas fa-mobile-alt"></i>
+              </a>
+            </li>
+            <li>
+              <a class="ease-all" href="#">
+                <i class="far fa-envelope"></i>
+              </a>
+            </li>
+          </ul> */}
+          <form className="form" action="MAILTO:martamontoropastor@gmail.com" method="POST">
+            <input type="text" name="nombre" id="nombre" placeholder="Nombre o empresa" className="input" required />
+            <input type="email" name="email" placeholder="E-mail" className="email" required className="input" />
+            <div className="speech-bubble">
+              <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="¿Qué necesitas?" className="textarea" required></textarea>
+            </div>
+            <div className="submit">
+              <input className="submit" type="submit" value="Enviar" />
+            </div>
+          </form>
+        </section>
       </main>
     </div>
   );
