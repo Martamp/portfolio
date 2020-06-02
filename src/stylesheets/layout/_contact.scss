@@ -5,15 +5,16 @@
 }
 .social {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  height: 50vh;
+  flex-direction: column;
   margin: 0;
   padding: 0;
 }
 .social li {
-  margin: 0;
+  margin: 14px 0px 10px 20px;
+  display: inline-block;
+}
+.social li:first-child {
+  margin-top: 0px;
   display: inline-block;
 }
 .ease-all {
@@ -26,36 +27,35 @@
 
 .social li a {
   display: inline-block;
-
-  width: 100px;
-  height: 100px;
+  border-radius: 5px;
+  width: 80px;
+  height: 80px;
   margin-right: 1rem;
   text-align: center;
   padding-top: 13px;
 
   /*background-color: #222;*/
-  -webkit-box-shadow: inset 0 0 0 100px white;
-  -moz-box-shadow: inset 0 0 0 100px white;
-  -o-box-shadow: inset 0 0 0 100px white;
-  -ms-box-shadow: inset 0 0 0 100px white;
-  box-shadow: inset 0 0 0 100px white;
+  -webkit-box-shadow: inset 0 0 0 80px $mainColor;
+  -moz-box-shadow: inset 0 0 0 80px $mainColor;
+  -o-box-shadow: inset 0 0 0 80px $mainColor;
+  -ms-box-shadow: inset 0 0 0 80px $mainColor;
+  box-shadow: inset 0 0 0 80px $mainColor;
 
   color: rgb(0, 0, 0);
 }
-
+i {
+  font-size: 50px;
+}
 .social li a:hover {
   -webkit-box-shadow: inset 0 0 0 3px white;
   -moz-box-shadow: inset 0 0 0 3px white;
   -o-box-shadow: inset 0 0 0 3px white;
   -ms-box-shadow: inset 0 0 0 3px white;
   box-shadow: inset 0 0 0 3px white;
-
+  border-radius: 5px;
   color: white;
 }
-i {
-  color: $mainColor;
-  font-size: 50px;
-}
+
 .form {
   display: flex;
   flex-direction: column;
@@ -122,16 +122,16 @@ input:focus {
   right: 20%;
   bottom: -50px;
 }
+
 .submit input {
-  font-family: $text;
-  font-size: 40px;
-  color: white;
-}
-.submit input {
+  margin-top: 30px;
   position: relative;
   font-family: $text;
   font-size: 50px;
   color: black;
+  background-color: transparent;
+  outline: none;
+  border: none;
   text-decoration: none;
   -webkit-text-stroke: 1px white;
 }
@@ -140,20 +140,17 @@ input:focus {
   -webkit-text-stroke: 1px transparent;
   transition: 0.25s;
 }
-.submit input:before {
-  content: attr(data-text);
-  position: absolute;
-  top: 0;
-  left: 0;
-  transition: 0.25s;
-  color: rgba(255, 255, 255, 0);
-  -webkit-text-stroke: 1px transparent;
+.section__contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
-
-.submit input:hover:before {
-  -webkit-text-stroke: 2px white;
-  z-index: 1;
-  transform: translate(5px, -10px);
-  transition: 0.25s;
-  color: rgba(255, 255, 255, 0);
+.download {
+  outline: none;
+  text-decoration: none;
+  font-family: $text;
+  font-size: 40px;
 }

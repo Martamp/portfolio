@@ -8,6 +8,7 @@ import buscador from '../images/buscador.png';
 import js from '../images/js.png';
 import awesome from '../images/awesome.png';
 import rickymorty from '../images/rickymorty.png';
+import pdf from '../documents/marta-montoro-cv.pdf';
 function App() {
   return (
     <div className="app">
@@ -144,29 +145,7 @@ function App() {
             <span className="space"> // </span> */}
           </div>
         </section>
-        <section id="page4" className=" section__contact">
-          {/* <ul class="social">
-            <li>
-              <a class="ease-all" href="#">
-                <i class="fab fa-github-alt"></i>
-              </a>
-            </li>
-            <li>
-              <a class="ease-all" href="#">
-                <i class="fab fa-linkedin-in icon"></i>
-              </a>
-            </li>
-            <li>
-              <a class="ease-all" href="#">
-                <i class="fas fa-mobile-alt"></i>
-              </a>
-            </li>
-            <li>
-              <a class="ease-all" href="#">
-                <i class="far fa-envelope"></i>
-              </a>
-            </li>
-          </ul> */}
+        <section id="page4" className="section__contact">
           <form className="form" action="MAILTO:martamontoropastor@gmail.com" method="POST">
             <input type="text" name="nombre" id="nombre" placeholder="Nombre o empresa" className="input" required />
             <input type="email" name="email" placeholder="E-mail" className="email" required className="input" />
@@ -177,6 +156,28 @@ function App() {
               <input className="submit" type="submit" value="Enviar" />
             </div>
           </form>
+          <ul class="social">
+            <li>
+              <a class="ease-all" href="https://github.com/Martamp" target="_blank">
+                <i class="fab fa-github-alt"></i>
+              </a>
+            </li>
+            <li>
+              <a class="ease-all" href="https://www.linkedin.com/in/martamontoropastor/" target="_blank">
+                <i class="fab fa-linkedin-in icon"></i>
+              </a>
+            </li>
+            <li>
+              <a class="ease-all" href="tel:+34649694494" target="_blank">
+                <i class="fas fa-mobile-alt"></i>
+              </a>
+            </li>
+            <li>
+              <a class="ease-all download" href={pdf} download="Marta Montoro CV">
+                CV
+              </a>
+            </li>
+          </ul>
         </section>
       </main>
     </div>
