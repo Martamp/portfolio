@@ -145,8 +145,9 @@ input:focus {
   flex-direction: row;
   justify-content: center;
   align-content: center;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  height: 80vh;
+  padding-top: 50px;
+  transform: translateY(25%);
 }
 .download {
   outline: none;

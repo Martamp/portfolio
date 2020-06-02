@@ -57,45 +57,39 @@ function App() {
         <section id="page2" className="page section__projects">
           <div className="section__projects--container">
             <div className="box--decoration">
-              <img src={vision} title="Marta" alt="Get to know me" />
+              <img src={vision} title="VISION" alt="Galeria de arte virtual" />
             </div>
-            <h4 className="section__projects--title">Title</h4>
-            {/* <p className="section__projects--description">DESCRIPTION Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-            <div className="section__projects--tags">
-              <span>JS</span>
-              <span>HTML</span>
-              <span>CSS</span>
-            </div> */}
+            <h4 className="section__projects--title">VISION</h4>
           </div>
           <div className="section__projects--container second">
             <div className="box--decoration">
-              <img src={rickymorty} title="Marta" alt="Get to know me" />
+              <img src={rickymorty} title="Rick & Morty" alt="Buscador de personajes" />
             </div>
-            <h4 className="section__projects--title">Title</h4>
+            <h4 className="section__projects--title">Rick & Morty</h4>
           </div>
           <div className="section__projects--container third">
             <div className="box--decoration">
-              <img src={awesome} title="Marta" alt="Get to know me" />
+              <img src={awesome} title="Awesome Profile Cards" alt="Crea tu propia tarjeta de visita" />
             </div>
-            <h4 className="section__projects--title">Title</h4>
+            <h4 className="section__projects--title">Crea tu tarjeta</h4>
           </div>
           <div className="section__projects--container four">
             <div className="box--decoration">
-              <img src={js} title="Marta" alt="Get to know me" />
+              <img src={js} title="Awesome Profile Cards" alt="Crea tu propia tarjeta de visita" />
             </div>
-            <h4 className="section__projects--title">Title</h4>
+            <h4 className="section__projects--title">Awesome Profile Cards JS</h4>
           </div>
           <div className="section__projects--container five">
             <div className="box--decoration">
-              <img src={buscador} title="Marta" alt="Get to know me" />
+              <img src={buscador} title="Buscador Series" alt="Buscador de series" />
             </div>
-            <h4 className="section__projects--title">Title</h4>
+            <h4 className="section__projects--title">Buscador de series</h4>
           </div>
           <div className="section__projects--container six">
             <div className="box--decoration">
-              <img src={group} title="Marta" alt="Get to know me" />
+              <img src={group} title="Web grupal" alt="Web grupal" />
             </div>
-            <h4 className="section__projects--title">Title</h4>
+            <h4 className="section__projects--title">Web informativa</h4>
           </div>
         </section>
         <section id="page3" className="section__knowledge">

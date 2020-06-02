@@ -1,18 +1,27 @@
 .app {
   text-align: center;
 }
-// .container {
-//   display: flex;
-// }
+.container {
+  width: 100vw;
+  position: relative;
+  top: -50px;
+}
 .header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   &__logo {
     font-family: $title;
     color: $mainColor;
   }
   &__menu {
+    position: fixed;
+    z-index: 5;
+    margin-top: 80px;
     font-family: $text;
     font-size: 40px;
     color: white;
+    text-align: center;
   }
   &__menu a {
     position: relative;
@@ -47,11 +56,13 @@
 }
 
 .section__about {
-  padding-top: 40px;
+  height: 90vh;
+  transform: translateY(25%);
   display: grid;
   grid-template-columns: 40% 50%;
   grid-column-gap: 100px;
   color: white;
+
   &--box {
     padding-top: 50px;
     text-align: left;
