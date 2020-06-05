@@ -1,0 +1,59 @@
+{
+  "projects": [
+    {
+      "name": "VISION",
+      "subtitle": "Próximamente",
+      "description": "Galería de arte virtual que permite buscar información sobre obras, artistas y movimientos a través de su propia API.",
+      "tags": ["HTML", "SASS", "React", "React-Router", "Javascript"],
+      "image": "vision.png",
+      "code": "",
+      "web": "",
+      "id": "1"
+    },
+    {
+      "name": "Rick & Morty",
+      "description": "Buscador de personajes e información de la serie Rick & Morty.",
+      "tags": ["HTML", "SASS", "React", "React-Router", "Javascript"],
+      "image": "rickymorty.png",
+      "code": "https://github.com/Martamp/rick-and-morty-character-search",
+      "web": "http://beta.adalab.es/modulo-3-evaluacion-final-Martamp/#/",
+      "id": "2"
+    },
+    {
+      "name": "Crea tu tarjeta",
+      "description": "Aplicación web que nos permite crear una tarjeta de visita personalizada creada con React a raíz de un código heredado. En la página web podemos introducir nuestros datos profesionales y obtener una vista maquetada con esta información. ",
+      "tags": ["HTML", "SASS", "React", "React-Router", "Javascript", "Local Storage"],
+      "image": "awesome.png",
+      "code": "https://github.com/Martamp/react-awesome-profile-cards",
+      "web": "http://beta.adalab.es/project-promo-i-module-3-team-2-morning/#/",
+      "id": "3"
+    },
+    {
+      "name": "Awesome Profile Cards JS",
+      "description": "Aplicación web que nos permite crear una tarjeta de visita personalizada creada con Javascript. En la página web podemos introducir nuestros datos profesionales y obtener una vista maquetada con esta información. ",
+      "tags": ["HTML", "SASS", "Javascript", "Local Storage"],
+      "image": "js.png",
+      "code": "https://github.com/Martamp/js-awesome-profile-cards",
+      "web": "http://beta.adalab.es/project-promo-i-module-2-team-4-morning/",
+      "id": "4"
+    },
+    {
+      "name": "Buscador de series",
+      "description": "Buscador de series creado con Javascript, que permite filtrar por título y categorizar las series favoritas del usuario.",
+      "tags": ["HTML", "SASS", "Javascript", "Local Storage"],
+      "image": "buscador.png",
+      "code": "https://github.com/Martamp/tv-series-searcher",
+      "web": "http://beta.adalab.es/modulo-2-evaluacion-final-Martamp/",
+      "id": "5"
+    },
+    {
+      "name": "Web informativa",
+      "description": "Web grupal colavorativa con información social sobre los miembros del equipo.",
+      "tags": ["HTML", "SASS"],
+      "image": "group.png",
+      "code": "https://github.com/Martamp/team-module-1-informative-page",
+      "web": "http://beta.adalab.es/project-promo-i-module-1-team-1-morning/",
+      "id": "6"
+    }
+  ]
+}
