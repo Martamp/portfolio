@@ -21,6 +21,23 @@ function Header() {
           contacto{' '}
         </a>
       </nav>
+      <nav className="header__menu--small">
+        <a href="/">
+          <i class="fas fa-user-astronaut get--icon"></i>
+        </a>
+        <span> </span>
+        <a href="#page2">
+          <i class="fas fa-desktop projects--icon"></i>
+        </a>
+        <span> </span>
+        <a href="#page3">
+          <i class="far fa-lightbulb know--icon"></i>
+        </a>
+        <span> </span>
+        <a href="#page4">
+          <i class="far fa-envelope contact--icon"></i>
+        </a>
+      </nav>
     </header>
   );
 }
