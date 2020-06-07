@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "./static/css/main.7202a994.chunk.css",
+    "main.js": "./static/js/main.57aca7fa.chunk.js",
+    "main.js.map": "./static/js/main.57aca7fa.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.0054cdea.js",
+    "runtime-main.js.map": "./static/js/runtime-main.0054cdea.js.map",
+    "static/js/2.298294b6.chunk.js": "./static/js/2.298294b6.chunk.js",
+    "static/js/2.298294b6.chunk.js.map": "./static/js/2.298294b6.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.edb3d6ec2f3f52b426448f2b69905b68.js": "./precache-manifest.edb3d6ec2f3f52b426448f2b69905b68.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/main.7202a994.chunk.css.map": "./static/css/main.7202a994.chunk.css.map",
+    "static/js/2.298294b6.chunk.js.LICENSE.txt": "./static/js/2.298294b6.chunk.js.LICENSE.txt",
+    "static/media/awesome.png": "./static/media/awesome.82f9840d.png",
+    "static/media/buscador.png": "./static/media/buscador.fdb65298.png",
+    "static/media/group.png": "./static/media/group.309d2407.png",
+    "static/media/js.png": "./static/media/js.136fb334.png",
+    "static/media/marta-montoro-cv.pdf": "./static/media/marta-montoro-cv.6d645034.pdf",
+    "static/media/profile-photo.png": "./static/media/profile-photo.cb7c8002.png",
+    "static/media/rickymorty.png": "./static/media/rickymorty.4ea24d42.png",
+    "static/media/vision.png": "./static/media/vision.58daf3a3.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0054cdea.js",
+    "static/js/2.298294b6.chunk.js",
+    "static/css/main.7202a994.chunk.css",
+    "static/js/main.57aca7fa.chunk.js"
+  ]
+}
