@@ -155,3 +155,52 @@ input:focus {
   font-family: $text;
   font-size: 40px;
 }
+
+@media all and (max-width: 1000px) {
+  .section__knowledge {
+    // height: 100%;
+    line-height: 50px;
+    &--text {
+      font-family: $text;
+      font-size: 2.6vw;
+      // width: 70vw;
+      margin: 0;
+      padding: 0;
+      flex-wrap: wrap;
+    }
+  }
+  .section__knowledge h4,
+  .section__knowledge h3 {
+    font-size: 4.6vw;
+    -webkit-text-stroke: 1.5px rgb(0, 0, 0);
+  }
+  .space {
+    font-size: 4.6vw;
+  }
+  .section__knowledge h3 {
+    font-size: 4.6vw;
+    -webkit-text-stroke: 1.5px rgb(255, 255, 255);
+  }
+}
+
+@media all and (max-width: 768px) {
+  .section__contact {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .social {
+    flex-direction: row;
+    width: 400px;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    & li {
+      margin-top: 0;
+      margin-left: 0;
+      display: inline-block;
+      width: 80px;
+    }
+    & li:last-child {
+      padding-right: 0;
+    }
+  }
+}

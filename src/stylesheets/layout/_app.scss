@@ -2,7 +2,7 @@
   text-align: center;
 }
 .container {
-  width: 100vw;
+  // width: 100vw;
   position: relative;
   top: -50px;
 }
@@ -19,14 +19,14 @@
     z-index: 5;
     margin-top: 80px;
     font-family: $text;
-    font-size: 40px;
+    font-size: 3.5vw;
     color: white;
     text-align: center;
   }
   &__menu a {
     position: relative;
     font-family: $text;
-    font-size: 50px;
+    font-size: 3.5vw;
     color: black;
     text-decoration: none;
     -webkit-text-stroke: 1px white;
@@ -71,13 +71,13 @@
   &--title {
     display: inline-block;
     font-family: $par;
-    font-size: 60px;
+    font-size: 3.9vw;
     margin: 0px;
   }
   &--subtitle {
     display: inline-block;
     font-family: $par;
-    font-size: 60px;
+    font-size: 3.9vw;
     margin: 0px;
   }
   &--subtitle span {
@@ -91,7 +91,7 @@
     word-wrap: break-word;
     text-align: justify;
     font-family: $par;
-    width: 700px;
+    width: 46vw;
   }
   &--container {
     display: inline-block;
@@ -183,5 +183,71 @@
   transform: scaleX(1);
   transform-origin: bottom left;
 }
-@media all and (min-width: 768px) {
+
+@media all and (max-width: 1100px) {
+  .section__about {
+    grid-template-columns: 1fr;
+    grid-gap: 0;
+    grid-template-rows: 1fr 1fr;
+
+    &--box {
+      grid-column: 1 / 2;
+      grid-row: 2 / 3;
+      text-align: center;
+      padding-top: 0px;
+    }
+    &--container {
+      grid-column: 1 / 2;
+      height: 220px;
+      grid-row: 1 / 2;
+    }
+
+    &--title {
+      display: block;
+      font-size: 40px;
+    }
+    &--subtitle {
+      font-size: 30px;
+      max-width: 600px;
+    }
+
+    &--text {
+      display: inline-block;
+      word-wrap: break-word;
+      text-align: justify;
+      font-family: $par;
+      width: 80vw;
+    }
+  }
+  .section__about img {
+    height: 280px;
+    z-index: 2;
+    top: -40px;
+    left: 20px;
+  }
+  .frame {
+    &__pink {
+      width: 200px;
+      height: 200px;
+    }
+    &__paper {
+      width: 200px;
+      height: 200px;
+      top: -275px;
+      left: 10px;
+    }
+    &__white {
+      width: 200px;
+      height: 200px;
+      z-index: -3;
+      top: 10px;
+      left: 10px;
+    }
+    &__bck {
+      width: 200px;
+      height: 200px;
+      top: 10px;
+      left: 10px;
+    }
+  }
 }
