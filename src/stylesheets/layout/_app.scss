@@ -1,8 +1,15 @@
 .app {
   text-align: center;
 }
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+::-webkit-scrollbar-thumb {
+  border: $mainColor 10px solid;
+}
+
 .container {
-  // width: 100vw;
   position: relative;
   top: -50px;
 }

@@ -164,3 +164,17 @@ label {
   text-decoration: none;
   outline: none;
 }
+@media all and (max-width: 980px) {
+  .section__img {
+    display: none;
+  }
+  .section__detail {
+    justify-content: center;
+    align-content: center;
+    vertical-align: center;
+  }
+  .section__detail--container {
+    margin: 7vw;
+    grid-column: 1 /3;
+  }
+}
