@@ -22,7 +22,7 @@ function Meet() {
           Me llamo <span className="text-underline">Marta</span> y soy <span className="text-underline-two">Desarrolladora Front-end</span>
         </h4>
 
-        <p className="page section__about--text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        <p className="page section__about--text">Graduada en Diseño Integral y Gestión de la Imagen, amante del mundo del diseño y la tecnología. Tras trabajar como diseñadora gráfica de aplicaciones móviles y web en equipos multidisciplinares, descubrí que no solo quería diseñar plataformas, sino también crearlas con mis propias manos. </p>
       </div>
     </section>
   );
