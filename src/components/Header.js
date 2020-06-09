@@ -1,11 +1,11 @@
 import React from 'react';
-
+import logo from '../images/logo-02.png';
 function Header() {
   return (
     <header className="header">
-      <h1 className="header__logo">Marta Montoro</h1>
+      <img src={logo} className="header__logo" width="80px"></img>
       <nav className="header__menu">
-        <a href="/" data-text="conoceme">
+        <a href="#/" data-text="conoceme">
           conóceme{' '}
         </a>
         <span>/ </span>

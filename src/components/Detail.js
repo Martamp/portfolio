@@ -10,13 +10,13 @@ function Detail(props) {
   });
   return (
     <section className="section__detail">
-      <div class="outer">
-        <div class="inner">
-          <Link className="link" to={`/`}>
+      <Link className="link" to={`/`}>
+        <div class="outer">
+          <div class="inner">
             <label>Volver</label>
-          </Link>
+          </div>
         </div>
-      </div>
+      </Link>
 
       <div className="section__img">
         <img src={imgDetail} title={props.data.name} alt={props.data.name} />
@@ -26,10 +26,10 @@ function Detail(props) {
         <p className="section__detail--text">{props.data.description}</p>
         <ul className="tag__container">{tags}</ul>
         <div className="icon__container">
-          <a className="text--detail" href={props.data.code}>
+          <a className="text--detail" href={props.data.code} target="_blank" rel="noopener noreferrer">
             <i className="fas fa-code icon--detail"></i> Código
           </a>
-          <a className="text--detail" href={props.data.web}>
+          <a className="text--detail" href={props.data.web} target="_blank" rel="noopener noreferrer">
             <i className="fas fa-laptop icon--detail"></i> Web
           </a>
         </div>

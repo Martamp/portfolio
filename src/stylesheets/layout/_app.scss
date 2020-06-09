@@ -18,8 +18,7 @@
   flex-direction: column;
   align-items: center;
   &__logo {
-    font-family: $title;
-    color: $mainColor;
+    padding-top: 20px;
   }
   &__menu {
     position: fixed;

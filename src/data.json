@@ -3,7 +3,7 @@
     {
       "name": "VISION",
       "subtitle": "Próximamente",
-      "description": "Galería de arte virtual que permite buscar información sobre obras, artistas y movimientos a través de su propia API.",
+      "description": "PUBLICACIÓN PRÓXIMAMENTE: Galería de arte virtual que permite buscar información sobre obras, artistas y movimientos a través de su propia API.",
       "tags": ["HTML", "SASS", "React", "React-Router", "Javascript"],
       "image": "vision.png",
       "code": "",
