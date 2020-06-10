@@ -5,7 +5,7 @@ function Header() {
     <header className="header">
       <img src={logo} className="header__logo" width="80px"></img>
       <nav className="header__menu">
-        <a href="#" data-text="conoceme">
+        <a href="#/" data-text="conoceme">
           conóceme{' '}
         </a>
         <span>/ </span>
