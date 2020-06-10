@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, Route, Switch } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 import '../stylesheets/index.scss';
 import Detail from './Detail';
 import Header from './Header';
@@ -8,7 +8,6 @@ import data from '../data.json';
 
 function App() {
   function renderDetail(props) {
-    console.log('AQUIEIEIEEIEI');
     const foundId = parseInt(props.match.params.id);
 
     const foundProject = data.projects.find((project) => parseInt(project.id) === foundId);

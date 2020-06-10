@@ -11,8 +11,8 @@ function Detail(props) {
   return (
     <section className="section__detail">
       <Link className="link" to={`/`}>
-        <div class="outer">
-          <div class="inner">
+        <div className="outer">
+          <div className="inner">
             <label>Volver</label>
           </div>
         </div>
