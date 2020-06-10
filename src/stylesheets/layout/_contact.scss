@@ -190,7 +190,7 @@ input:focus {
     flex-direction: row;
     width: 400px;
     justify-content: space-between;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
     & li {
       margin-top: 0;
       margin-left: 0;
@@ -241,5 +241,8 @@ input:focus {
   }
   .submit {
     width: 200px;
+    & input {
+      font-size: 30px;
+    }
   }
 }

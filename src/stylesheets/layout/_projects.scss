@@ -137,6 +137,9 @@
   .section__projects--container:first-child {
     padding-left: 0px;
   }
+  .section__projects :nth-child(4) img {
+    left: -120px;
+  }
 
   .box--decoration {
     height: 200px;
