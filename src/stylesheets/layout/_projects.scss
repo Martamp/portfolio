@@ -1,6 +1,4 @@
 .section__projects {
-  // padding-top: 200px;
-  // height: 100vh;
   align-items: center;
   display: flex;
   flex-direction: row;
@@ -108,15 +106,12 @@
 }
 @media all and (max-width: 768px) {
   .section__projects {
-    // padding-top: 200px;
     height: 100%;
     align-items: center;
     display: flex;
     flex-direction: column;
     overflow-x: hidden;
     position: relative;
-
-    // overflow-y: auto;
   }
   .box--decoration {
     height: 250px;
@@ -137,17 +132,12 @@
     &--container {
       margin: 0;
       padding: 0;
-      // overflow-x: hidden;
     }
   }
   .section__projects--container:first-child {
     padding-left: 0px;
   }
 
-  // .section__projects :nth-child(2) img {
-  //   transform: rotate(-10deg);
-  //   left: 10px;
-  // }
   .box--decoration {
     height: 200px;
     width: 200px;

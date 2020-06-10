@@ -20,7 +20,6 @@
   padding: 0;
   display: inline-block;
   font-size: 50px;
-  // font-size: 3.2vw;
   -webkit-text-stroke: 2px rgb(0, 0, 0);
 }
 .section__knowledge h3 {
@@ -47,18 +46,15 @@
 }
 .developer,
 .designer {
-  // transition: 1s;
-  // color: rgb(255, 255, 255);
   -webkit-text-stroke: 2px rgb(255, 255, 255);
 }
 @media all and (max-width: 1000px) {
   .section__knowledge {
-    // height: 100%;
     line-height: 50px;
     &--text {
       font-family: $text;
       font-size: 2.6vw;
-      // width: 70vw;
+
       margin: 0;
       padding: 0;
       flex-wrap: wrap;

@@ -34,7 +34,6 @@
   text-align: center;
   padding-top: 13px;
 
-  /*background-color: #222;*/
   -webkit-box-shadow: inset 0 0 0 80px $mainColor;
   -moz-box-shadow: inset 0 0 0 80px $mainColor;
   -o-box-shadow: inset 0 0 0 80px $mainColor;
@@ -158,12 +157,11 @@ input:focus {
 
 @media all and (max-width: 1000px) {
   .section__knowledge {
-    // height: 100%;
     line-height: 50px;
     &--text {
       font-family: $text;
       font-size: 2.6vw;
-      // width: 70vw;
+
       margin: 0;
       padding: 0;
       flex-wrap: wrap;
