@@ -27,10 +27,11 @@ function Detail(props) {
         <ul className="tag__container">{tags}</ul>
         <div className="icon__container">
           <a className="text--detail" href={props.data.code} target="_blank" rel="noopener noreferrer">
-            <i className="fas fa-code icon--detail"></i> Código
+            <i className="fas fa-code icon--detail"></i>
+            <small className="title--detail">Código</small>
           </a>
           <a className="text--detail" href={props.data.web} target="_blank" rel="noopener noreferrer">
-            <i className="fas fa-laptop icon--detail"></i> Web
+            <i className="fas fa-laptop icon--detail"></i> <small className="title--detail">Web</small>
           </a>
         </div>
       </div>

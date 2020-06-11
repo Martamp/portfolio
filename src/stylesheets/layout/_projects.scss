@@ -104,6 +104,11 @@
   border: 10px solid white;
   box-shadow: 10px -10px 0 -3px black, 10px -10px white, 20px -20px 0 -3px black, 20px -20px white, 30px -30px 0 -3px black, 30px -30px white, 40px -40px 0 -3px black, 40px -40px white;
 }
+.anchor {
+  margin: 0;
+  padding: 0;
+  height: 20px;
+}
 @media all and (max-width: 768px) {
   .section__projects {
     height: 100%;
